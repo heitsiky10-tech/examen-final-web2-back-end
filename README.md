@@ -34,6 +34,7 @@ cp .env.example .env
 Le fichier `.env` doit contenir :
 
 PORT=3001
+```
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=exam_hub_db
@@ -41,7 +42,7 @@ DB_PORT=5433
 DB_HOST=localhost
 JWT_SECRET=super_secret_key_pour_les_tokens_jwt
 JWT_EXPIRES_IN=24h
-
+```
 ## 3. Démarrage de la base de données (Docker)
 
 Le conteneur PostgreSQL est défini dans `docker-compose.yaml`.
