@@ -179,7 +179,7 @@ bash
 ```
 npm create vite@latest
 ```
-. Nom du projet : front
+. Nom du projet : exam-hub
 . Framework: React
 . Variante: JavaScript + React Compiler
 . Linter: ESLint
@@ -188,8 +188,16 @@ npm create vite@latest
 VITE_API_URL=http://localhost:3001/api
 
 ## Lancement
+
 ```
 npm run dev
+```
+ou
+
+```
+npm run build
+
+npm run preview
 ```
 
 ## Structure du projet
